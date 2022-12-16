@@ -1,36 +1,78 @@
-.kwadrat{
+.kontener{
+display: flex;
+width: 100%;
+border: 0px solid red;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.kwadrat {
     height: 150px;
     width: 150px;
-    margin:auto;
-    margin-bottom: 20px;
-    transition: all;
-    transition-duration:2s;
+   
+  
 }
 
-.czerwony{
+.czerwony {
     background-color: red;
-}
-.czerwony:hover{
-    width:300px;
-    transition: all;
-    transition-duration:2s;
+
 }
 
-.niebieski{
+
+.niebieski {
     background-color: blue;
+   
+  
+}
+
+.zielony {
+    background-color: green;
+    
+   
+}
+
+.fioletowy {
+    background-color: violet;
+   
+    
+}
+
+.rozowy {
+    background-color: pink;
+   
+}
+
+.bialy {
+    background-color: white;
+   
+
+}
+
+.brazowy {
+    background-color: brown;
  
 }
-.niebieski:hover{
-    height: 300px;
-    transition: all;
-    transition-duration:2s;
+
+.szary {
+    background-color: grey;
+   
 }
-.zielony{
-    background-color: green;
+
+.pomaranczowy {
+    background-color: orange;
+
 }
-.zielony:hover{
-    width: 300px;
-    height: 300px;
-    transition: all;
-    transition-duration:2s;
+
+
+.kolko{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+
 }
